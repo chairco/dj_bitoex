@@ -1,0 +1,30 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+requests = "*"
+selenium = "*"
+pillow = "*"
+"beautifulsoup4" = "*"
+django = "*"
+django-q = "*"
+django-debug-toolbar = "*"
+django-environ = "*"
+django-crispy-forms = "*"
+"psycopg2" = "*"
+django-compressor = "*"
+pytz = "*"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"
