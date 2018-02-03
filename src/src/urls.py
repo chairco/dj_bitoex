@@ -20,13 +20,14 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.views.i18n import set_language
 
+from bitoex import views
+
 
 urlpatterns = i18n_patterns(
     # Add top-level URL patterns here.
-    #url(r'^$', index, name='index'),
-    #url(r'^search/', include('haystack.urls')),
+    url(r'^$', views.IndexView.as_view()),
     url(r'^bitoex/', include('bitoex.urls')),
-
+    #url(r'^search/', include('haystack.urls')),
 )
 
 urlpatterns += [

@@ -101,6 +101,7 @@ THIRD_PARTY_APPS = (
 )
 
 LOCAL_APPS = (
+    'django_echarts',
     'bitoex',
 )
 
@@ -251,3 +252,9 @@ Q_CLUSTER = {
     'orm': 'default'
 }
 
+
+# ECHART
+
+DJANGO_ECHARTS = {
+    'local_host': '{STATIC_URL}echarts'
+}
