@@ -19,6 +19,7 @@ django-crispy-forms = "*"
 "psycopg2" = "*"
 django-compressor = "*"
 pytz = "*"
+django-echarts = "*"
 
 
 [dev-packages]

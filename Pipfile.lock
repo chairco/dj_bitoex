@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "14cbbd1bff3d266452f57f143607eec244c343a82d2ffb098bba69f462b34e23"
+            "sha256": "abcc6c4d770019ba4f72ed89ede82bd761060c497f2216d36a35351768acafe1"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -99,6 +99,12 @@
             ],
             "version": "==1.9.1"
         },
+        "django-echarts": {
+            "hashes": [
+                "sha256:b99e1ee03ab6be080002cb6dcc7eab66d11760027197015a01c78a3afdcf1b8e"
+            ],
+            "version": "==0.2.3"
+        },
         "django-environ": {
             "hashes": [
                 "sha256:e9c171b9d5f540e6f3bc42866941d9cd0bd77fb110a7c13a7c4857a2c08cfa40",
@@ -120,12 +126,37 @@
             ],
             "version": "==0.9.0"
         },
+        "future": {
+            "hashes": [
+                "sha256:e39ced1ab767b5936646cedba8bcce582398233d6a627067d4c6a454c90cfedb"
+            ],
+            "version": "==0.16.0"
+        },
         "idna": {
             "hashes": [
                 "sha256:8c7309c718f94b3a625cb648ace320157ad16ff131ae0af362c9f21b80ef6ec4",
                 "sha256:2c6a5de3089009e3da7c5dde64a141dbc8551d5b7f6cf4ed7c2568d0cc520a8f"
             ],
             "version": "==2.6"
+        },
+        "jinja2": {
+            "hashes": [
+                "sha256:74c935a1b8bb9a3947c50a54766a969d4846290e1e788ea44c1392163723c3bd",
+                "sha256:f84be1bb0040caca4cea721fcbbbbd61f9be9464ca236387158b0feea01914a4"
+            ],
+            "version": "==2.10"
+        },
+        "jupyter-pip": {
+            "hashes": [
+                "sha256:bd25e86c2199527c7a265aaaa3f258ca5f9d314ed8508cc4e173672dc03e5070"
+            ],
+            "version": "==0.3.1"
+        },
+        "markupsafe": {
+            "hashes": [
+                "sha256:a6be69091dac236ea9c6bc7d012beab42010fa914c459791d627dad4910eb665"
+            ],
+            "version": "==1.0"
         },
         "pillow": {
             "hashes": [
@@ -173,6 +204,12 @@
             ],
             "version": "==5.0.0"
         },
+        "pluck": {
+            "hashes": [
+                "sha256:2a84a60ee6681b933d9b6757b3febbde4a200f2f6f65d396e214ad4ecab2efdf"
+            ],
+            "version": "==0.2"
+        },
         "psycopg2": {
             "hashes": [
                 "sha256:594aa9a095de16614f703d759e10c018bdffeafce2921b8e80a0e8a0ebbc12e5",
@@ -208,6 +245,12 @@
                 "sha256:5c3213be557d0468f9df8fe2487eaf2990d9799202c5ff5cb8d394d09fad9b2a"
             ],
             "version": "==2.7.3.2"
+        },
+        "pyecharts": {
+            "hashes": [
+                "sha256:c65edc8e44baca37fb47e583cb0c874565c4d2ba7a14c9a0ea9ff1ed7509862a"
+            ],
+            "version": "==0.3.1"
         },
         "python-dateutil": {
             "hashes": [
