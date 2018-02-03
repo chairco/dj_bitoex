@@ -1,0 +1,31 @@
+{% extends 'bitoex/_base.html' %}
+{% block main_content %}
+    <p>Django-ECharts示例</p>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">前端渲染示範</div>
+                <div class="panel-body">
+                    <p><a href="{% url 'frontend_chart_list'%}">前端渲染示範</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">後端渲染示範</div>
+                <div class="panel-body">
+                    <p><a href="{% url 'backend_chart_list' %}">後端渲染示範</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">Page示範</div>
+                <div class="panel-body">
+                    <p><a href="#">Page示範</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
