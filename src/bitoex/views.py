@@ -25,9 +25,11 @@ from .demo_data import *
 
 def create_bitoex_line():
     time = [ t[0] for t in Bitoex.objects.values_list('timestamp').reverse()]
-    bitoex_sell = [ b[0] for b in Bitoex.objects.values_list('buy').reverse()]
+    bitoex_buy = [ b[0] for b in Bitoex.objects.values_list('buy').reverse()]
+    bitoex_sell = [ b[0] for b in Bitoex.objects.values_list('sell').reverse()]
     line = Line('Bitoex buy price')
-    line.add('買價', time, bitoex_sell, is_smooth=True)
+    line.add('買價', time, bitoex_buy, is_smooth=True, is_label_show=True, mark_point=["average"])
+    line.add('賣價', time, bitoex_sell, is_smooth=True, is_label_show=True, mark_point=["average"])
     return line
 
 
